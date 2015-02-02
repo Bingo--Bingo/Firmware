@@ -26,8 +26,6 @@ include_directories(${PX_SRC}/lib)
 include_directories(${PX_SRC}/drivers)
 
 add_definitions(-D__EXPORT=)
-add_definitions(-D__BEGIN_DECLS=)
-add_definitions(-D__END_DECLS=)
 add_definitions(-DERROR=-1)
 add_definitions(-DOK=0)
 
